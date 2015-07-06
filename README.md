@@ -1,6 +1,6 @@
 # Resource manager
 This is an implementation of test challenge from machinezone. 
-As http framework was used library mochweb.
+As http framework library mochweb was used.
 
 ## Dependencies
 
