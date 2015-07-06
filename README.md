@@ -14,7 +14,7 @@ In order to run the server, you need to install some dependencies:
 
 Before first run, project should be compiled.
 To do this, run **make** in root project directory.
-Once the project is compiled - you can start running the tests: make test.
+Once the project is compiled - you can start running the tests: **make test**.
 
 ## Starting
 
