@@ -1,9 +1,6 @@
 -module (resources).
 -export ([loop/1, new/0, init/0, perform_cmd/3, allocated/1, deallocated/1]).
 
-
-
-
 -include("records.hrl").
 -include("config.hrl").
 

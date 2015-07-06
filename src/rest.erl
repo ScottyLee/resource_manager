@@ -2,7 +2,6 @@
 -export ([response/2]).
 -include ("records.hrl").
 
-
 wait_answer(Req)->
 	Pid = whereis(resources),
 	receive
@@ -15,7 +14,6 @@ process_cmd(Cmd, Data, Req)->
 	Pid = whereis(resources),
 	Pid ! {self(), Command},
 	wait_answer(Req).
-
 
 rest_response(Req, 'GET', "/allocate/" ++ UID, _DocRoot) ->
 	process_cmd(allocate, UID, Req);
